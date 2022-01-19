@@ -1,0 +1,11 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+
+alias nv='nvim'
+alias g='g++'
+alias r='./a.out'
+
+
+cat ~/.cache/wal/sequences
