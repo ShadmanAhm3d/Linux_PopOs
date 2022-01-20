@@ -2,14 +2,16 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-
+# Custom aliases
 alias nv='nvim'
 alias g='g++'
 alias r='./a.out'
 
-
+#Pywal terminal setup
 cat ~/.cache/wal/sequences
 
+
+#Google automation
 function google
 set search ""
 echo "Googling: $argv"
