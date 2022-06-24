@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+       
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+      },
+      {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+      },
+      {
+        "key": "ctrl+numpad7",
+        "command": "workbench.action.toggleZenMode"
+      },
+      {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode"
+      },
+      {
+        "key": "alt+q",
+        "command": "workbench.action.toggleActivityBarVisibility"
+      },
+      
+]

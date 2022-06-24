@@ -1,0 +1,72 @@
+{
+    "editor.fontFamily": "'Fira Code' ,'Droid Sans Mono','monospace',  'Droid Sans Fallback'",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "code-runner.runInTerminal": true,
+    "C_Cpp.updateChannel": "Insiders",
+
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.lineNumbers": "relative",
+   
+     // Keep text highlighted after searching in vim.
+  "vim.hlsearch": true,
+  "vim.timeout": 250,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.useCtrlKeys": false,
+
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+  ],
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "<r>"],
+      "commands": ["redo"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontSize": 16,
+  "zenMode.hideTabs": false,
+  "zenMode.hideLineNumbers": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "CodeSandbox Legacy",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": false,
+ 
+
+}
